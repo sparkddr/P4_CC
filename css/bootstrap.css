@@ -1621,10 +1621,6 @@ h6 {
     font-size: 12px
 }
 
-p {
-    margin: 0 0 10px
-}
-
 .lead {
     margin-bottom: 20px;
     font-size: 16px;
@@ -7682,7 +7678,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #0009;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px

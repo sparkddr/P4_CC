@@ -654,6 +654,16 @@ a {
     color: #575757!important;
 }
 
+blockquote{
+    all : unset;
+    font-style: italic;
+    font-size: 18px;
+    color: #575757;
+    font-weight: 400;
+    margin-bottom : 30px;
+
+}
+
 .container {
     max-width: 1000px;
 }
@@ -679,6 +689,7 @@ a {
 p {
     font-size: 11px;
 }
+
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -709,6 +720,8 @@ h2 {
     line-height: 1.4em;
 }
 
+
+
 h3 {
     font-size: 15px;
     text-transform: uppercase;
@@ -723,7 +736,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    font-size: 23px;
+    color: #575757!important;
+    font-weight: 400;
+    width: 80%;
+    margin: 0px auto 20px auto;
 }
 
 h4 {
