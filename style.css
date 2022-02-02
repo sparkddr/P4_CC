@@ -10,13 +10,17 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
 }
 
 a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
+li>a{
+    border-radius: 20px;
+}
+
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -334,8 +338,9 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+    background: #f3976cab;
 }
+
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
@@ -401,6 +406,9 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+    .address{
+        margin-top: 80px;
+    }
 }
 
 .nav > li > .dropdown a {
@@ -460,9 +468,6 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
-    outline: none!important;
-}
 
 .btn-rd {
     border-radius: 40px;
@@ -724,7 +729,7 @@ h1 span{
 
 h2 {
     font-size: 22px;
-    line-height: 1.4em;
+    line-height: 1.5em;
 }
 
 
@@ -808,9 +813,12 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.btn-atomic-tangerine:hover {
+.btn-atomic-tangerine:hover,.btn-atomic-tangerine:focus   {
     background: #c27956!important;
     color: #FFFFFF!important;
+}
+.btn-atomic-tangerine:focus{
+    border: 1px solid white;
 }
 
 .ltc-white {
@@ -1058,10 +1066,14 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
+
 }
+
+

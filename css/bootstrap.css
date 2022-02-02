@@ -1410,7 +1410,7 @@ a {
     text-decoration: none
 }
 
-a:focus,
+
 a:hover {
     color: #23527c;
     text-decoration: underline
@@ -1419,7 +1419,7 @@ a:hover {
 a:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px
+    
 }
 
 figure {
@@ -1625,7 +1625,7 @@ h6 {
     margin-bottom: 20px;
     font-size: 16px;
     font-weight: 300;
-    line-height: 1.4
+    line-height: 1.5
 }
 
 @media (min-width:768px) {
@@ -4221,7 +4221,7 @@ fieldset[disabled] .btn-link:hover {
 .btn-block {
     display: block;
     width: 100%
-}
+}   
 
 .btn-block+.btn-block {
     margin-top: 5px
