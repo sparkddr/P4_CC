@@ -689,19 +689,24 @@ blockquote{
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 
 .tight-width-whitespace {
-    max-width: 600px;
     margin: auto auto auto auto;
 }
 
-.h1 {
-    font-size: 20px;
+h1 {
+    font-size: 25px;
     font-family: "Open Sans";
 }
+
+h1 span{
+    font-size: 20px;
+}
+
+
 
 .cta-hero {
     margin-top: 22px;
@@ -765,6 +770,7 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    max-width: 600px;
 }
 
 .avatar {
