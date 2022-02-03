@@ -512,6 +512,14 @@ nav .caret {
     color: #2A2A2A !important;
 }
 
+i{
+    transition: all 350ms;
+}
+
+i:hover{
+    color: white !important;
+}
+
 .panel-rd {
   border-radius: 30px;
 }
@@ -677,12 +685,20 @@ a {
 }
 
 blockquote {
-  all: unset;
+ 
   font-style: italic;
-  font-size: 18px;
+  
   color: #575757;
   font-weight: 400;
   margin-bottom: 30px;
+}
+
+blockquote>p{
+    font-size:  19px;
+}
+
+figcaption{
+    color: #575757;
 }
 
 .container {
