@@ -1416,11 +1416,11 @@ a:hover {
     text-decoration: underline
 }
 
-a:focus {
+/*a:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
     
-}
+}*/
 
 figure {
     margin: 0
